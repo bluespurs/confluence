@@ -27,9 +27,6 @@ depends 'apache2'
 depends 'ark'
 depends 'database'
 depends 'java'
-depends 'mysql', '< 8.0.0'
-depends 'mysql_connector'
-depends 'mysql2_chef_gem', '< 2.0.0'
 depends 'postgresql'
 
 chef_version '< 13.0.0' if respond_to?(:chef_version)
